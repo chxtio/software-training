@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+	<material name="white">
+		<color rgba="1 1 1 1"/>
+	</material>
+
 	<link name="base_link">
 	</link>
 
@@ -14,7 +18,7 @@
 		<visual>
 			<origin xyz="0.15 0 0.075"/>
 			 <geometry>
-				 <box size="o.3 0.03 0.15"/>
+				 <box size="0.3 0.3 0.15"/>
 			</geometry>
 			<material name="white"/>
 		</visual>
